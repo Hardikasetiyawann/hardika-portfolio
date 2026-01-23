@@ -1,0 +1,113 @@
+# ====================================
+# ENVIRONMENT VARIABLES (SANGAT PENTING - JANGAN DI-COMMIT)
+# ====================================
+# File ini berisi API keys, Firebase credentials, EmailJS keys, dan password sensitif
+# SELALU tambahkan .env ke .gitignore untuk keamanan
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# ====================================
+# LOGS (Jangan di-commit)
+# ====================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ====================================
+# DEPENDENCIES (Terlalu besar, install via npm/yarn)
+# ====================================
+node_modules
+pnpm-lock.yaml
+
+# ====================================
+# BUILD OUTPUT & COMPILED FILES
+# ====================================
+dist
+dist-ssr
+build
+out
+.vite
+
+# ====================================
+# IDE & EDITOR SETTINGS (Personal preferences)
+# ====================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+*.iml
+*.iws
+*.ipr
+
+# ====================================
+# OS-SPECIFIC FILES (Jangan di-commit)
+# ====================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.AppleDB
+.directory
+*.lnk
+
+# ====================================
+# TESTING & COVERAGE
+# ====================================
+coverage/
+.nyc_output/
+*.lcov
+.jest-cache/
+
+# ====================================
+# CACHE & TEMPORARY FILES
+# ====================================
+.cache/
+.eslintcache
+tmp/
+temp/
+*.tmp
+.turbo/
+.next/
+
+# ====================================
+# FIREBASE EMULATOR
+# ====================================
+.runtimeconfig.json
+firebase-debug.log
+
+# ====================================
+# DATABASE & PERSISTENCE
+# ====================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ====================================
+# MISC
+# ====================================
+.now
+.vercel
+.netlify
+*.psd
+.history
+.generated/
+system.log
+.env.local.js
+.module-cache
