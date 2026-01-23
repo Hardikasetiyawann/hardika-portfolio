@@ -1,16 +1,4 @@
-# Hardika Setiyawan - Professional Portfolio
-
-A modern, interactive portfolio website showcasing full-stack development projects, skills, and professional experience. Built with React, Three.js, and Tailwind CSS with dynamic 3D animations and smooth interactions.
-
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![React](https://img.shields.io/badge/React-18+-blue)
-
-## 📚 Quick Links
-
-- [🚀 Getting Started](#-getting-started) • [🛠️ Tech Stack](#️-tech-stack) • [📊 Deploy](#-deployment) • [🔐 Firebase Setup](#-firebase-setup) • [📞 Support](#-support)
-
----
+# Hardika Setiyawan - Portfolio
 
 ## 🌟 Features
 
@@ -142,6 +130,13 @@ src/
    VITE_EMAILJS_SERVICE_ID=your_emailjs_service_id
    VITE_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
    VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+   VITE_EMAILJS_SERVICE_ID=your_emailjs_service_id_here
+   VITE_EMAILJS_TEMPLATE_ID=your_emailjs_template_id_here
+   VITE_EMAILJS_PUBLIC_KEY=your_emailjs_public_key_here
+   VITE_CONTACT_EMAIL=your_email@example.com
+   VITE_ENABLE_RATE_LIMITING=true
+   VITE_RATE_LIMIT_ATTEMPTS=3
+   VITE_RATE_LIMIT_WINDOW_MS=60000
    ```
 
 4. **Start the development server**
@@ -242,7 +237,7 @@ techstack/
    - Service ID
    - Template ID
    - Public Key
-4. Add to `.env.local`
+4. Add to `.env`
 
 ---
 
@@ -274,49 +269,9 @@ techstack/
 
 ---
 
-## 🔍 SEO & Meta
-
-- Helmet integration for dynamic meta tags
-- Open Graph support for social sharing
-- Structured data for better indexing
-- Sitemap and robots.txt in public folder
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
 ## 👤 Author
 
 **Hardika Setiyawan**
 
 - GitHub: [@Hardikasetiyawann](https://github.com/Hardikasetiyawann)
 - Email: hardikasetiyawan@gmail.com
-
----
-
-## 🙏 Acknowledgments
-
-- Three.js and React Three Fiber communities
-- Tailwind CSS documentation and examples
-- GSAP for amazing animation capabilities
-- Firebase for backend infrastructure
-- All open-source libraries used in this project
-
----
-
-## 📞 Support
-
-For issues, questions, or suggestions:
-
-1. Open an issue on GitHub
-2. Contact via the website contact form
-3. Reach out via email or WhatsApp (see contact page)
-
----
-
-**Last Updated**: January 2026  
-**Version**: 1.0.0
