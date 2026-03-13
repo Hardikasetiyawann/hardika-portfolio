@@ -69,7 +69,7 @@ export const content = {
             bio1: "Saya Hardika Setiyawan, mahasiswa Informatika di Universitas Amikom Purwokerto dengan minat kuat pada Machine Learning, Web Development, Backend Development, dan Mobile Application.",
             bio2: "Saya terbiasa mengerjakan proyek end-to-end: mulai dari data scraping, preprocessing NLP, training dan evaluasi model, pembuatan REST API, hingga integrasi frontend web dan Mobile Flutter.",
             download: "Unduh CV",
-            cvUrl: "",
+            cvUrl: "https://drive.google.com/file/d/1Dm6REtKV9ceNDn-Ujq8RfLVcLwALaPhd/view?usp=drivesdk",
 
             stats: {
                 exp: "Bidang Fokus",
@@ -227,7 +227,7 @@ export const content = {
             bio1: "I'm Hardika Setiyawan, an Informatics student at Universitas Amikom Purwokerto with a strong interest in Machine Learning, Web Development, Backend Development, and Mobile Applications.",
             bio2: "I work on end-to-end projects, from data scraping and NLP preprocessing to model training, REST API development, and web/mobile integration.",
             download: "Download CV",
-            cvUrl: "",
+            cvUrl: "https://drive.google.com/file/d/1Dm6REtKV9ceNDn-Ujq8RfLVcLwALaPhd/view?usp=drivesdk",
 
             stats: {
                 exp: "Focus Areas",
