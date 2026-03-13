@@ -148,7 +148,7 @@ const AboutPage = React.memo(({ t, tools }) => {
                 <div className={`${animClass(titleInView, "delay-300")}`}>
                   <a
                     href={t.about.cvUrl}
-                    target="_blank"
+                    target="https://drive.google.com/file/d/1Dm6REtKV9ceNDn-Ujq8RfLVcLwALaPhd/view?usp=drivesdk"
                     rel="noopener noreferrer"
                     className="flex items-center w-fit px-8 py-3 bg-teal-500/10 border border-teal-500/20 rounded-full text-teal-100 hover:bg-teal-500/20 hover:border-teal-400/50 transition group cursor-pointer backdrop-blur-sm shadow-lg hover:shadow-teal-500/20"
                   >
